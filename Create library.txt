@@ -1,0 +1,23 @@
+1.Create a project by using below command
+ng new <project name>
+Ex:ng new DemoFrameWork
+
+2.Create a library by using below command
+ng generate library <library name>
+Ex:ng generate library demo-lib
+
+3.Build a library by using below command
+ng build <library name>
+Ex: ng build demo-lib
+
+4.Create a component in library
+ng g c component name --project <project name>
+Ex: ng g c  counter --project demo-lib
+
+5.Create package
+cd .\dist\
+cd .\demo-lib\
+npm pack
+
+6.Add below command under dependiences in package.json
+ "demo-lib": "file:packages/demo-lib-0.0.1.tgz"
