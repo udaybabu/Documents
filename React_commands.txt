@@ -1,0 +1,8 @@
+1.Create project
+npx create-react-app myapp
+
+2.Default class component bioler plate
+rfce
+
+3.Default function component bioler plate
+rce
